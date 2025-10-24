@@ -1,0 +1,56 @@
+@use "../variables/variables" as v;
+
+.content-business {
+    display: grid;
+    grid-template-columns: (30px 1fr 30px);
+    grid-template-rows: (30px 1fr 30px);
+    .content-business-list {
+        display : inline-grid;
+        grid-column: 2;
+        grid-row: 2;
+        grid-auto-rows: minmax(0, auto);
+        .add-business {
+            align-self: end;
+            background-color: v.$brand-background-color;
+            border-radius: 10px;
+            width: 300px;
+            height: 50px;
+            justify-items: center;
+        }
+        .business-list {
+            display: grid;
+            gap: 10px;
+            padding: 0;
+            :hover {
+                background-color: aliceblue;
+            }
+            .business-item-card {
+                display: grid;
+                grid-template-columns: (10px 250px);
+                grid-template-rows: (25px 50px);
+                align-items: center;
+                border: 1px solid black;
+                gap: 10px;
+                border-radius: 10px;
+                padding: 3px;
+                .id {
+                    grid-column: 1;
+                    grid-row: 1;
+                    margin: 0;
+                }
+                .name {
+                    grid-column: 2;
+                    grid-row: 1;
+                    margin: 0;
+                }
+                .description {
+                    grid-column: 1;
+                    grid-row: 2;
+                    align-self: start;
+                    align-self: start;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

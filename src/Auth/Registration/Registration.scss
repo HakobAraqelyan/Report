@@ -1,0 +1,61 @@
+.registration {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    .registration-form {
+        display: grid;
+        justify-content: center;
+        .form-group-email {
+            display: grid;
+        }
+        .input {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            max-width: 1000px;
+            min-width: 450px;
+            padding: 5px;
+            height: 30px;
+            font-size: 20px;
+            border-radius: 7px;
+            margin: 5px;
+        }
+        .form-group-password {
+            display: grid;
+        }
+        .hidden {
+            display: none;
+        }
+        .show {
+            display: block;
+        }
+        .icon {
+            justify-self: end;
+            width: 24px;
+            height: 24px;
+            margin: -38px 15px 0 0;
+        }
+        .title {
+            margin: 0 0 0 15px;
+        }
+        .form-group-terms {
+            display: flex;
+            justify-content: flex-end;
+            margin: 45px 0 15px 0;
+        }
+        .sing-up {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            max-width: 1000px;
+            min-width: 450px;
+            height: 50px;
+            font-size: 22px;
+            background-color: #466730;
+            border-radius: 25px;
+
+        }
+    }
+}

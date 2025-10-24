@@ -1,0 +1,16 @@
+
+.app-body {
+  display: grid;
+  grid-template-columns: 245px 1fr;
+  grid-template-rows: 1fr;
+
+  
+  .content {
+      display: grid;
+      min-width: 500px;
+      grid-template-columns: 10fr;
+      grid-template-rows: 1fr;
+      grid-column-start: 2;
+      grid-row-start: 2;
+  }
+}

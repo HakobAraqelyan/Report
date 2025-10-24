@@ -1,0 +1,69 @@
+.Log-in {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+        .login-form {
+            display: grid;
+            .form-group-email {
+                display: grid;
+            }
+            .input {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                max-width: 1000px;
+                min-width: 450px;
+                padding: 5px;
+                height: 30px;
+                font-size: 20px;
+                border-radius: 7px;
+                margin: 5px;
+            }
+            .form-group-password {
+                display: grid;
+                .icon {
+                    justify-self: end;
+                    width: 24px;
+                    height: 24px;
+                    margin: -38px 15px 0 0;
+                }
+                .hidden {
+                    display: none;
+                }
+                .show {
+                    display: block;
+                }
+            }
+            .title {
+                margin: 0 0 0 15px;
+            }
+            .forgot-password {
+                display: grid;
+                justify-content: end;
+                margin: 0 0 15px 0;
+            }
+            .sing-in {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                max-width: 1000px;
+                min-width: 450px;
+                height: 50px;
+                font-size: 22px;
+                background-color: #466730;
+                border-radius: 25px;
+                
+            }
+        }
+        .text {
+            align-self: center;
+            justify-self: center;
+            font-size: 16px;
+        }
+        .title-sing-in {
+            font-size: 26px;
+        }
+
+    }
